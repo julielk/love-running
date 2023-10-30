@@ -1,0 +1,22 @@
+/* Asterisk wild cats to override default styles added by the broswer */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/*header */
+header{
+    background-color: lightcoral;
+}
+
+/* main content */
+main{
+    background-color: lightblue;
+}
+
+
+/* footer */
+footer{
+    background-color: orange;
+}
