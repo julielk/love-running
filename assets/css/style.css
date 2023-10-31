@@ -1,6 +1,6 @@
 /* Google fonts imports */
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 
 /* Asterisk wild cats to override default styles added by the broswer */
