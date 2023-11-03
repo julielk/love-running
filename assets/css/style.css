@@ -137,6 +137,28 @@
     color:#ffffff;
  }
 
+/* reason section */
+#reason{
+     width:90%;
+     margin: 20px auto;
+}
+/* target h2 reason section */
+#reason h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 200%;
+}
+
+/* children of divs benefit-physical benefit-mental */
+#benefits-physical >div, benefits-mental >div{
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p{
+    padding: 0 20px;
+}
+
 
  /* footer */
  #social-networks {
