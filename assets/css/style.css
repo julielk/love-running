@@ -214,6 +214,17 @@
      color: #fafafa;
  }
 
+ /*Gallery photos */
+ #photos img {
+     width: 100%;
+     line-height: 1em;
+
+ }
+
+ #photos {
+     line-height: 0;
+ }
+
 
  /* footer */
  #social-networks {
@@ -233,6 +244,16 @@
  }
 
 
+ /*media query : larger or landscape(576 and up*/
+
+ @media screen and (min-width:576px) {
+
+     #photos {
+         column-count: 2;
+         column-gap: 0;
+     }
+
+ }
 
 
  /* media query: tablets and larger (789 ) and up */
@@ -300,6 +321,11 @@
          align-self: flex-end;
      }
 
+     /*Gallery */
+     #photos {
+         column-count: 3;
+     }
+
  }
 
  /* large device (laptop and doesktop    */
@@ -308,6 +334,10 @@
 
      #menu a:hover {
          border-bottom: 2px solid #3a3a3a;
+     }
+
+     #photos {
+         column-count: 4;
      }
 
 
